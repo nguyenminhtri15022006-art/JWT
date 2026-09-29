@@ -80,16 +80,3 @@ java -jar target/JWT_springboot3-0.0.1-SNAPSHOT.jar
    - Hiển thị bảng danh sách tất cả người dùng trong hệ thống (gọi API `GET /users/`).
 5. Bấm **Logout**: Token được xóa khỏi `localStorage` và chuyển về trang đăng nhập.
 
----
-
-## 6. HƯỚNG DẪN ĐẨY LÊN GITHUB ĐỂ NỘP BÀI (KHI CẦN)
-Khi bạn sẵn sàng nộp bài, hãy chạy các lệnh sau tại thư mục này:
-```bash
-git init
-git add .
-git commit -m "Hoàn thành bài tập JWT Spring Boot 3 với Nimbus JOSE+JWT - MSSV 24110359"
-git branch -M main
-git remote add origin <LINK_REPO_GITHUB_CUA_BAN>
-git push -u origin main
-```
-Sau đó sao chép link repository và nộp lên hệ thống UTExLMS.
